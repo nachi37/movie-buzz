@@ -1,6 +1,7 @@
 .appName {
   font: 56px "Helvetica Ne";
   margin: 12px;
+  color: #bc2020;
 }
 .container {
   display: flex;

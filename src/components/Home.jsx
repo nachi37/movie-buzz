@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { Button } from '@mui/material';
 import styles from './home.module.css';
-import APP_NAME  from '../constants/APP_CONSTANTS.js'
 const baseURL = "https://api.themoviedb.org/4/list/8243765";
 
 const Home = () => {
@@ -23,7 +22,6 @@ const Home = () => {
     }  
     return (
         <>
-        <div className={styles.appName}>{APP_NAME}</div>
         <div className={styles.container}> 
             {
                 movies.map((movie) => (
