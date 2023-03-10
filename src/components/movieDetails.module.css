@@ -1,0 +1,46 @@
+.movieName {
+    font: 36px "Helvetica Ne";
+    padding: 12px;
+    margin: 12px;
+}
+
+.img {
+    max-height: 513px;
+    width: max-content;
+}
+
+.title {
+    font: bold 18px Arial, sans-serif;
+    padding: 8px;
+}
+
+.detail {
+    font: normal 14px;
+    padding: 0px 12px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:12px;
+}
+
+
+.containerItem {
+    flex: 0 1 24%;
+    padding: 5px;
+    border: 5px  #bc2020;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.30);
+}
+
+.containerItem img {
+	display: block;
+	border: 0;
+	width: 100%;
+	height: auto;
+}
+
+.MuiButton {
+    margin: 0px 8px;
+}
