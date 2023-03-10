@@ -17,13 +17,6 @@ const Home = () => {
         getMovies();
     }, []);
     console.log('movies', movies);
-
-//    const createPost = () => {
-//         axios.post(baseURL, {title: 'Home', body:'Food'})
-//         .then((response) => {
-//             setMovies(response.data);
-//         })
-//       }
     
     const showDetails = (id) => {
         navigate(`/details/${id}`);

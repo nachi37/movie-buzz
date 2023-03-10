@@ -79,6 +79,7 @@ function MovieDetails() {
               ></iframe>
             </Grid>
           </Grid>
+          
           <div className={styles.MuiButton}>
             <Button
               variant="contained"
@@ -91,6 +92,7 @@ function MovieDetails() {
               {showTrailer ? "Pause" : "Play"}
             </Button>
           </div>
+
           <div className={styles.title}>
             Genres:{" "}
             {details?.genres?.map((genre, index) => (
